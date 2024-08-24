@@ -36,7 +36,7 @@ import '../App.css';
 function Footer() {
   return (
     <footer>
-      <p>&copy; 2024, LernApp. All rights reserved.</p>
+      <p>&copy; 2024 LernApp, Inc. All rights reserved.</p>
       <div className="social-icons">
         <a href="#" target="_self" rel="noopener noreferrer" className="social-icon">
           <FontAwesomeIcon icon={faFacebook} />
