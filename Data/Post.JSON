@@ -1,0 +1,45 @@
+[
+    {
+        "_id": "64df4b0f4e8b59f79e0b9b7a",
+        "title": "Introduction to MongoDB",
+        "content": "MongoDB is a NoSQL database used for high-volume data storage.",
+        "author": "John Doe",
+        "timestamp": "2024-08-15T10:00:00Z",
+        "fach": "Mathe",
+        "comments": [
+            "64df4b0f4e8b59f79e0b9b7b",
+            "64df4b0f4e8b59f79e0b9b7c"
+        ],
+        "files": [
+            {
+                "filename": "mongodb_overview.pdf",
+                "filetype": "pdf",
+                "url": "http://example.com/mongodb_overview.pdf"
+            },
+            {
+                "filename": "nosql_vs_sql.png",
+                "filetype": "image",
+                "url": "http://example.com/nosql_vs_sql.png"
+            }
+        ]
+    },
+    {
+        "_id": "64df4b0f4e8b59f79e0b9b7d",
+        "title": "Learning Material for MongoDB",
+        "content": "Here are some resources to help you learn MongoDB: official documentation, MongoDB University, and community forums.",
+        "author": "Emily Brown",
+        "timestamp": "2024-08-15T11:00:00Z",
+        "fach": "Deutsch",
+        "comments": [
+            "64df4b0f4e8b59f79e0b9b7e",
+            "64df4b0f4e8b59f79e0b9b7f"
+        ],
+        "files": [
+            {
+                "filename": "learning_resources.txt",
+                "filetype": "text",
+                "url": "http://example.com/learning_resources.txt"
+            }
+        ]
+    }
+]

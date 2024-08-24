@@ -1,0 +1,30 @@
+[
+    {
+        "_id": "64df4b0f4e8b59f79e0b9b7b",
+        "postId": "64df4b0f4e8b59f79e0b9b7a",
+        "author": "Jane Smith",
+        "content": "Thanks for the introduction!",
+        "timestamp": "2024-08-15T10:15:00Z"
+    },
+    {
+        "_id": "64df4b0f4e8b59f79e0b9b7c",
+        "postId": "64df4b0f4e8b59f79e0b9b7a",
+        "author": "Alex Johnson",
+        "content": "This is really helpful, looking forward to more posts.",
+        "timestamp": "2024-08-15T10:30:00Z"
+    },
+    {
+        "_id": "64df4b0f4e8b59f79e0b9b7e",
+        "postId": "64df4b0f4e8b59f79e0b9b7d",
+        "author": "Chris Evans",
+        "content": "Great resources, very helpful!",
+        "timestamp": "2024-08-15T11:15:00Z"
+    },
+    {
+        "_id": "64df4b0f4e8b59f79e0b9b7f",
+        "postId": "64df4b0f4e8b59f79e0b9b7d",
+        "author": "Taylor Swift",
+        "content": "Looking forward to using these resources!",
+        "timestamp": "2024-08-15T11:30:00Z"
+    }
+]
