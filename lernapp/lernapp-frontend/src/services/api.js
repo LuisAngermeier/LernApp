@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:8080'; // Adjust according to your backend URL
+const API_URL = 'http://localhost:8080'; 
 
 export const fetchPostsByFach = async (fach) => {
     const response = await fetch(`${API_URL}/posts/fach/${fach}`);

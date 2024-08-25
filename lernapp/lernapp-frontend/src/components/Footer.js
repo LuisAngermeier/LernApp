@@ -30,7 +30,7 @@ const styles = {
 
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faInstagram, faGithub, faReddit, faTelegram, faSnapchat, faGoogle, faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faTwitter, faInstagram, faGithub, faReddit, faTelegram, faSnapchat, faGoogle, faXTwitter, faYoutube, faWikipediaW } from '@fortawesome/free-brands-svg-icons';
 import '../App.css';
 
 function Footer() {
@@ -57,10 +57,10 @@ function Footer() {
           <FontAwesomeIcon icon={faTelegram} />
         </a>
         <a href="#" target="_self" rel="noopener noreferrer" className="social-icon">
-          <FontAwesomeIcon icon={faSnapchat} />
+          <FontAwesomeIcon icon={faWikipediaW} />
         </a>
         <a href="#" target="_self" rel="noopener noreferrer" className="social-icon">
-          <FontAwesomeIcon icon={faGoogle} />
+          <FontAwesomeIcon icon={faYoutube} />
         </a>
       </div>
     </footer>

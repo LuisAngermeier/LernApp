@@ -1,5 +1,3 @@
-// src/components/Navbar.js
-
 import React, { useState } from 'react';
 import { AppBar, Toolbar, Typography, IconButton, Drawer, List, ListItem, ListItemText, Container, useMediaQuery, useTheme } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -8,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     const [open, setOpen] = useState(false);
     const theme = useTheme();
-    const isMobile = useMediaQuery(theme.breakpoints.down('md')); // Adjust breakpoint as needed
+    const isMobile = useMediaQuery(theme.breakpoints.down('md')); 
 
     const toggleDrawer = () => {
         setOpen(!open);

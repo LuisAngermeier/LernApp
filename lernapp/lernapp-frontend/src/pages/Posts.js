@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Container, Typography, Grid, Card, CardContent, Button, Dialog, DialogActions, DialogContent, DialogTitle, TextField, CircularProgress } from '@mui/material';
 import { useParams } from 'react-router-dom';
 import { fetchPostsByFach, createPost } from '../services/api';
-import CommentSection from '../components/CommentSection'; // Import CommentSection
+import CommentSection from '../components/CommentSection'; 
 
 const Posts = () => {
     const { fach } = useParams();
