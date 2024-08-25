@@ -1,9 +1,8 @@
-// src/pages/Posts.js
-
 import React, { useEffect, useState } from 'react';
-import { Container, Typography, Grid, Card, CardContent, Button, TextField, Dialog, DialogActions, DialogContent, DialogTitle, CircularProgress } from '@mui/material';
+import { Container, Typography, Grid, Card, CardContent, Button, Dialog, DialogActions, DialogContent, DialogTitle, TextField, CircularProgress } from '@mui/material';
 import { useParams } from 'react-router-dom';
 import { fetchPostsByFach, createPost } from '../services/api';
+import CommentSection from '../components/CommentSection'; // Import CommentSection
 
 const Posts = () => {
     const { fach } = useParams();
@@ -100,6 +99,7 @@ const Posts = () => {
                                         </a>
                                     </div>
                                 ))}
+                                <CommentSection postId={post.id} />
                             </CardContent>
                         </Card>
                     </Grid>
